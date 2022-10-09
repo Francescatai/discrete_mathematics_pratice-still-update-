@@ -12,4 +12,9 @@ def add2(n):
         return 0
     else:
         return n+add2(n-1)
-print(add2(10))
+# print(add2(10))
+
+# formula
+def add3(n):
+    return ((1+n)*n)/2
+# print(add3(10))
